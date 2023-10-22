@@ -39,7 +39,7 @@ p {
   flex-direction: column;
   align-items: center;
   height: 250px;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .tipo {
@@ -81,6 +81,24 @@ footer {
     transform: translateX(-100%);
   }
 }
+.botonPagar {
+  display: block;
+  background-color: #F2D022;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 35px;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 180px;
+}
+
+a {
+  text-decoration: none;
+  color: #260D40;
+}
+
 .mitad {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -133,10 +151,13 @@ footer {
 
 @media (max-width: 767px) {
   .logo {
-    margin-top: 15%;
+    margin-top: 10%;
   }
   .tipo {
     height: 200px;
+  }
+  .botonPagar {
+    margin-top: 50px;
   }
   .mitad {
     display: block;
