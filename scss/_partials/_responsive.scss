@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+    .logo {
+        margin-top: 15%;
+    }
+    .tipo {
+        height: 200px;
+    }
+
+    .mitad {
+        display: block;
+        width: 100%;
+
+        .fijo {
+            height: 300px;
+
+            .logo {
+                margin: 30px;
+            }
+        }
+
+        .variable {
+            h1 {
+                margin-top: 35px;
+            }
+
+            h2 {
+                padding: 10px;
+            }
+
+            p {
+                padding: 15px;
+            }
+        }
+     }
+    }

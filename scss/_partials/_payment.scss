@@ -1,0 +1,56 @@
+.mitad {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+}
+
+.fijo {
+    background-color: #260D40;
+    height: 100vh;
+
+    .logo {
+        display: flex;
+        margin: 150px;
+    }
+}
+
+.variable {
+    background-color: #9049BF; 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    h1 {
+        margin-top: 150px;
+    }
+
+    h2 {
+        padding: 20px 150px 0px 150px;
+    }
+
+    p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: #260D40;
+        text-align: center;
+        padding: 20px 150px 0px 150px;
+    }
+
+    .botonPago {
+        background-color: #F2D022;
+        width: fit-content;
+        padding: 20px;
+        border-radius: 35px;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: auto;
+        margin-top: 45px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: #9049BF;
+    }
+}
