@@ -92,6 +92,7 @@ footer {
   font-weight: 600;
   margin: auto;
   margin-top: 180px;
+  text-align: center;
 }
 
 a {
@@ -155,9 +156,10 @@ a {
   }
   .tipo {
     height: 200px;
+    margin-top: 15px;
   }
   .botonPagar {
-    margin-top: 50px;
+    margin-top: 25px;
   }
   .mitad {
     display: block;
