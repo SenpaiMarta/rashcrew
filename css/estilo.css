@@ -12,7 +12,7 @@ h1 {
   font-weight: 900;
   color: #F2D022;
   text-align: center;
-  margin: 50px 10px 10px 10px;
+  margin: 50px 20px 10px 20px;
 }
 
 h2 {
@@ -38,13 +38,12 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 250px;
   margin-top: 5%;
 }
 
 .tipo {
   height: 250px;
-  margin: 20px;
+  margin-bottom: 3%;
 }
 
 .icono {
@@ -52,6 +51,7 @@ p {
   animation: swing;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  margin-top: 10px;
 }
 
 footer {
@@ -83,6 +83,7 @@ footer {
 }
 .botonPagar {
   display: block;
+  margin: auto;
   background-color: #F2D022;
   width: fit-content;
   padding: 20px;
@@ -90,8 +91,6 @@ footer {
   font-family: "Source Sans 3", sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  margin: auto;
-  margin-top: 180px;
   text-align: center;
 }
 
@@ -150,16 +149,20 @@ a {
   color: #9049BF;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .logo {
     margin-top: 10%;
+    margin: auto;
   }
   .tipo {
-    height: 200px;
-    margin-top: 15px;
+    height: 130px;
+    margin-top: 0px;
+    margin-bottom: 7%;
   }
   .botonPagar {
-    margin-top: 25px;
+    font-size: 0.9rem;
+    width: 80dvw;
+    margin: auto;
   }
   .mitad {
     display: block;

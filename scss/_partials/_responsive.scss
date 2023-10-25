@@ -1,14 +1,19 @@
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .logo {
         margin-top: 10%;
+        margin: auto;
     }
     .tipo {
-        height: 200px;
-        margin-top: 15px;
+        height: 130px;
+        margin-top: 0px;
+        margin-bottom: 7%;
     }
 
     .botonPagar {
-        margin-top: 25px;
+        font-size: 0.9rem;
+        width: 80dvw;
+        margin: auto;
+    
     }
 
     .mitad {
