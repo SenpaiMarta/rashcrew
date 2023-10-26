@@ -1,6 +1,10 @@
 @media (max-width: 1024px) {
+    body {
+        max-width: 100dvw;
+    }
+
     .logo {
-        margin-top: 10%;
+        margin-top: 5%;
         margin: auto;
     }
     .tipo {
@@ -12,7 +16,8 @@
     .botonPagar {
         font-size: 0.9rem;
         width: 80dvw;
-        margin: auto;
+        margin: 0 auto;
+        margin-bottom: 3%;
     
     }
 
@@ -22,6 +27,7 @@
 
         .fijo {
             height: 300px;
+            width: 100%;
 
             .logo {
                 margin: 30px;

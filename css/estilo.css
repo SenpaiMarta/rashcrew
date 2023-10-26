@@ -5,6 +5,10 @@
 
 body {
   background-color: #260D40;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -42,8 +46,8 @@ p {
 }
 
 .tipo {
-  height: 250px;
-  margin-bottom: 3%;
+  max-width: 90%;
+  max-height: 250px;
 }
 
 .icono {
@@ -54,16 +58,16 @@ p {
   margin-top: 10px;
 }
 
-footer {
+.footerHome {
+  overflow-x: hidden;
   background-color: #F2D022;
   text-align: center;
-  position: fixed;
   width: 100%;
-  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 0;
+  margin-top: auto;
 }
 
 .rotating-text {
@@ -83,7 +87,7 @@ footer {
 }
 .botonPagar {
   display: block;
-  margin: auto;
+  margin: 1.5% auto;
   background-color: #F2D022;
   width: fit-content;
   padding: 20px;
@@ -99,15 +103,20 @@ a {
   color: #260D40;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .mitad {
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 100%;
+  min-height: calc(100dvh - 50px - 16px);
+  width: 100dvw;
 }
 
 .fijo {
   background-color: #260D40;
-  height: 100vh;
+  height: 100%;
 }
 .fijo .logo {
   display: flex;
@@ -118,7 +127,7 @@ a {
   background-color: #9049BF;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
 }
 .variable h1 {
   margin-top: 150px;
@@ -143,15 +152,39 @@ a {
   font-weight: 600;
   margin: auto;
   margin-top: 45px;
+  margin-bottom: 10px;
 }
 .variable a {
   text-decoration: none;
   color: #9049BF;
 }
 
+.footerPay {
+  background-color: #F2D022;
+  text-align: center;
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0 0 0;
+  margin-top: auto;
+  height: 50px;
+  position: relative;
+  bottom: 0;
+}
+
+.gangrena {
+  display: block;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
 @media (max-width: 1024px) {
+  body {
+    max-width: 100dvw;
+  }
   .logo {
-    margin-top: 10%;
+    margin-top: 5%;
     margin: auto;
   }
   .tipo {
@@ -162,7 +195,8 @@ a {
   .botonPagar {
     font-size: 0.9rem;
     width: 80dvw;
-    margin: auto;
+    margin: 0 auto;
+    margin-bottom: 3%;
   }
   .mitad {
     display: block;
@@ -170,6 +204,7 @@ a {
   }
   .mitad .fijo {
     height: 300px;
+    width: 100%;
   }
   .mitad .fijo .logo {
     margin: 30px;

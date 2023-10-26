@@ -1,12 +1,18 @@
+body {
+    overflow-x: hidden;
+
+} 
+
 .mitad {
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 100%;
+    min-height: calc(100dvh - 50px - 16px);
+    width: 100dvw;
 }
 
 .fijo {
     background-color: #260D40;
-    height: 100vh;
+    height: 100%;
 
     .logo {
         display: flex;
@@ -18,7 +24,7 @@
     background-color: #9049BF; 
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
 
     h1 {
         margin-top: 150px;
@@ -46,6 +52,7 @@
         font-weight: 600;
         margin: auto;
         margin-top: 45px;
+        margin-bottom: 10px;
 
     }
 
@@ -53,4 +60,24 @@
         text-decoration: none;
         color: #9049BF;
     }
+}
+
+.footerPay {
+    background-color: #F2D022;
+    text-align: center;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+    margin-top: auto;
+    height: 50px;
+    position: relative;
+    bottom: 0; 
+}
+
+.gangrena {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }

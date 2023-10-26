@@ -5,6 +5,10 @@
 
 body {
     background-color: #260D40;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
 }
 
 h1 { 
@@ -41,8 +45,8 @@ p {
 }
 
 .tipo {
-    height: 250px;
-    margin-bottom: 3%;
+    max-width: 90%;
+    max-height: 250px;
 }
 
 .icono {
@@ -53,16 +57,16 @@ p {
     margin-top: 10px;
 }
 
-footer {
+.footerHome {
+    overflow-x: hidden;
     background-color: #F2D022;
     text-align: center;
-    position: fixed;
     width: 100%;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 0;
+    margin-top: auto;
 }
 
 .rotating-text {
@@ -82,7 +86,7 @@ footer {
 }
     .botonPagar {
         display: block;
-        margin: auto;
+        margin: 1.5% auto;
         background-color: #F2D022;
         width: fit-content;
         padding: 20px;
